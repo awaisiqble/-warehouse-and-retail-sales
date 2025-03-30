@@ -7,7 +7,7 @@ import pandas as pd
 import plotly.express as px
 
 # Load Data
-file_path = "Cleaned_Warehouse_and_Retail_Sales.csv"
+file_path = r"C:\Users\dell\git hub repo\-warehouse-and-retail-sales\Cleaned_Warehouse_and_Retail_Sales.csv"
 df = pd.read_csv(file_path)
 df["DATE"] = pd.to_datetime(df["YEAR"].astype(str) + "-" + df["MONTH"].astype(str) + "-01")
 
