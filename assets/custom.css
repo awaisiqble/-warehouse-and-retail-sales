@@ -1,0 +1,67 @@
+/* assets/custom.css */
+/* Base Theme Styles */
+.dbc-dark {
+    background-color: rgba(25,25,25,0.9) !important;
+    color: #ffffff !important;
+}
+
+.shadow-lg {
+    box-shadow: 0 0.5rem 1.5rem rgba(0,0,0,0.4) !important;
+}
+
+.bg-dark {
+    background-color: #1a1a1a !important;
+}
+
+/* Enhanced Dropdown Styling */
+.Select-menu-outer {
+    background-color: #2a2a2a !important;
+    border: 1px solid #495057 !important;
+}
+
+.VirtualizedSelectOption {
+    color: #39FF14 !important; /* Neon Green text */
+    background-color: #2a2a2a !important;
+}
+
+.VirtualizedSelectFocusedOption {
+    background-color: #495057 !important;
+}
+
+.Select--single > .Select-control .Select-value-label {
+    color: #39FF14 !important; /* Neon Green selected value */
+}
+
+/* Date Picker Enhancements */
+.DateInput_input {
+    background-color: #2a2a2a !important;
+    color: #39FF14 !important; /* Neon Green text */
+    border: 1px solid #495057 !important;
+}
+
+.DateInput_input__focused {
+    border-color: #7DF9FF !important; /* Electric Blue focus */
+}
+
+.CalendarDay__selected {
+    background: #7DF9FF !important; /* Electric Blue selection */
+    color: #000 !important;
+}
+
+.DayPicker_weekHeader {
+    color: #7DF9FF !important; /* Electric Blue headers */
+}
+
+.CalendarDay__today {
+    color: #39FF14 !important; /* Neon Green today's date */
+}
+
+/* Table Enhancements */
+.dash-table-container .dash-spreadsheet-container .dash-spreadsheet-inner td {
+    color: #7DF9FF !important; /* Electric Blue cell text */
+}
+
+.dash-table-container .dash-spreadsheet-container .dash-spreadsheet-inner th {
+    background-color: #2a2a2a !important;
+    color: #39FF14 !important; /* Neon Green headers */
+}
